@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<title>
+    Mover
+</title>
+
+<style>
+    button {
+        background-color: #010102;
+        border: solid;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    #Forward {
+        margin-left: 140px;
+        margin-bottom: 50px;
+    }
+
+    #Backward {
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+
+    #Right {
+
+        margin-left: 50px;
+
+    }
+
+    #stop {
+        margin-left: 50px;
+    }
+
+    #Left {
+        margin-right: 50;
+    }
+</style>
+
+
+<body>
+    
+    <form action="values.php" method="POST">
+        <center>
+
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+        <button type="submit" name="forward" id="Forward" value="F"> Forward </button>
+        </br>
+        <button type="submit" name="left" id="Left" value="L"> Left </button>
+
+        <button type="submit" name="stop" id="stop" value="S" > STOP </button>
+
+        <button type="submit" name="right" id="Right" value="R" style="margin-right: -150px;"> Right </button>
+        </br>
+        <button type="submit" name="backward" id="Backward" value="B"> Backward </button>
+    </center>
+    </form>
+
+</body>
+
+</html>
